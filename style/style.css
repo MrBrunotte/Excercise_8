@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    background-color: #5151c5;
+    background-image: url(/media/img/backgroundBody.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 120px;
+    padding: 25px 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 40px;
+}
+footer {
+    height: 40px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color:rgba(128, 128, 128, 0.315);
+    padding: 15px 0 10px;
+    margin-top: auto;
+}
+a,
+ul,
+li {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+a:hover,
+ul:hover,
+li:hover {
+    text-decoration: none;
+    color: #ee0018;
+    list-style-type: none;
+}
+
+::before, ::after {
+    box-sizing: inherit;
+}
+.quotes::before {
+    content: open-quote;
+}
+.quotes::after{
+    content: close-quote;
+}
+
+/* navbar background */
+.bg-light {
+    background-color:#f8f9fa38 !important;
+}
+
+.headerfont {
+    font-family: 'Rock Salt', cursive;
+}
+.welcomeText {
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 25px 0;
+}
+.center {
+    text-align: center;
+}
+.space {
+    margin: 30px;
+}
+.centerItemHorisontal {
+    display: flex;
+    justify-content: center;
+}
+.centerItemVertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerVideo {
+    display: flex;
+    justify-content: center;
+}
+.videoDisplay {
+    height: 40vh;
+}
+.headerText {
+    padding: 10px 0;
+}
+.whoAreWe,
+.whatWeDo,
+.ourParty {
+    padding: 25px;
+}
+.firstBackground {
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 25px;
+}
+.secondBackground {
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px 0;
+}
+.ourParty {
+    padding: 0;
+}
+.ourParty p {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.imgMain,
+.imgSmall {
+    width: auto;
+    border-radius: 50px;
+    padding: 15px 0;
+}
+.imgMain {
+    height: 400px;
+} 
+.imgSmall {
+    height: 250px;
+} 
+.btn {
+    color: black;
+    border-color: whitesmoke
+}
+.btn-outline-light:hover {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+}
