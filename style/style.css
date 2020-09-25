@@ -57,7 +57,10 @@ li:hover {
     color: black;
     list-style-type: none;
 }
-
+#mashines,
+#party {
+    height: 100vh;
+}
 ::before, ::after {
     box-sizing: inherit;
 }
@@ -152,14 +155,10 @@ li:hover {
     background-color: transparent;
     border-color: black;
 }
-
-
-
 .imgEmp {
     max-width: 200px;
     border-radius: 25px;
 }
-
 .contact_email_img {
     content: url(/media/img/email150x150.png);
     width: 300px;
@@ -171,6 +170,7 @@ li:hover {
 .myCard {
     border: none;
     border-radius: 50px;
+    background-color: transparent;
 }
 .myCardImgTop {
     border-top-left-radius: calc(.75rem - 1px);
@@ -180,8 +180,192 @@ li:hover {
     background-color: #a4936c;
     border-style: none;
 }
- .ulContact,
- .liContact,
- .liContact a {
-    color: black;
+.ulContact,
+.liContact,
+.liContact a {
+color: black;
+}
+
+.mySrOnly {
+    color: white;
+}
+.products {
+    height: 100vh;
+}
+.productImg {
+    width: 250px;
+    padding-top: 20px;
+}
+.productCard {
+    background-color: #7c73599d;
+}
+.myCardGroup {
+    margin: 25px;
+}
+
+/* Media Breakpoints */
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) and (max-width: 576px) { 
+    #mashines, #party {
+        height: auto;
+    }
+    h1,
+    .h1prod {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 23px;
+    }
+    .products {
+        height: 65vh;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .welcomeText {
+        font-size: 18px;
+        
+    }
+    .welcomeTextProd {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .headerText p,
+    .whatWeDo p,
+    .whoAreWe p,
+    .ourParty p {
+        font-size: 12px;
+    }
+    .video {
+        display: none;
+    }
+    .imgMain {
+        height: 300px;
+    }
+    .contact_email_img {
+        display: none;
+    }
+}
+/*Medium devices (tablets, 576px and up)*/
+@media (min-width: 576px) and (max-width: 768px) { 
+    #mashines, #party {
+        height: auto;
+    }
+    h1,
+    .h1prod {
+        font-size: 54px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .products {
+        height: 65vh;
+    }
+    .productImg {
+        width: 136px;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .welcomeText {
+        font-size: 18px;
+        padding: 0;
+    }
+    .welcomeTextProd {
+        font-size: 16px;
+    }
+    .headerText p,
+    .whatWeDo p,
+    .whoAreWe p,
+    .ourParty p {
+        font-size: 14px;
+    }
+    
+    .imgMain {
+        height: 300px;
+    }
+    .contact_email_img {
+        display: none;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 992px) { 
+    #mashines, #party {
+        height: auto;
+    }
+    h1,
+    .h1prod {
+        font-size: 54px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    
+    .products {
+        height: 65vh;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .welcomeText {
+        font-size: 18px;
+        padding: 0;
+    }
+    .welcomeTextProd {
+        font-size: 16px;
+    }
+    .headerText p,
+    .whatWeDo p,
+    .whoAreWe p,
+    .ourParty p {
+        font-size: 14px;
+    }
+    .productImg {
+        width: 136px;
+    }
+    .imgMain {
+        height: 300px;
+    }
+    .card-text {
+        font-size: 12px;
+    }
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1020px) { 
+    #mashines, #party {
+        height: auto;
+    }
+    h1,
+    .h1prod {
+        font-size: 54px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .products {
+        height: 65vh;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .welcomeText {
+        font-size: 18px;
+        padding: 0;
+    }
+    .welcomeTextProd {
+        font-size: 16px;
+    }
+    .headerText p,
+    .whatWeDo p,
+    .whoAreWe p,
+    .ourParty p {
+        font-size: 14px;
+    }
+
+    .imgMain {
+        height: 300px;
+    }
  }
